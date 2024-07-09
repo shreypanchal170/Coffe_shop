@@ -1,0 +1,154 @@
+<html>
+<head>
+
+<link href="Css.css" rel="stylesheet" type="text/css" >
+<link href="https://fonts.googleapis.com/css?family=Arimo|Roboto" rel="stylesheet">
+</head>
+<body>
+
+
+
+<div class="header">
+	<div class="container1">
+	<div class="logo">
+	<a href="index.html">
+	<img src="images/logo1.png" / >
+	</a>
+	</div><!-- .logo -->                 
+	<div class="header_right">    
+	<div class="headerinfo">
+	<i></i>Contact: 123 456 7899  <span><i></i>Email: Info@CoffeeShop.com</span>                </div>   
+	</div><!--header_right-->
+	<div class="menu">
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">Gallery</a></li>
+			<li><a class="drop" href="">Menu</a>
+			<ul>
+				<li><a class="drop" href="">Food</a>
+				<ul>
+					<li><a href="">Food</a></li>
+					<li><a href="">Food</a></li>
+				</ul>
+				</li>
+				<li><a class="drop" href="">Drink</a>
+					<ul>
+						<li><a href="">Drink</a></li>
+						<li><a href="">Drink</a></li>
+					</ul>
+				</li>
+			</ul>
+			</li>
+			<li><a href="">Contact US</a></li>
+			<li><a href="">About US</a></li>
+		</ul>
+	
+	</div>
+	<div class="clear"></div>
+</div><!-- .container-->
+</div><!-- .header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----------------------------------Footer----------------------------------------->
+<div class="footer">
+	<div class="containar">
+		<div class="div-4">    
+				<div class="logo footerlogo">
+				<a href="index.html"><img src="images/logo1.png"></a>
+				</div>
+			<div class="phone-no">
+				<p><span>Tel : </span>+91 1234567890</p>
+				<p><span>Fax : </span>+91 1234567890</p>
+				<p><span>E-mail : </span><a href="mailto:info@buildpress.com">info@CoffeeShop.com</a></p>
+				<p><span>Address : </span>1600 Amphitheatre Parkway Mountain View, CA 94043</p>
+			</div>
+			<div class="social-icons">
+				<a href="#"  class="Social_f" ></a>
+				<a href="#"  class="Social_y" ></a>
+				<a href="#"  class="Social_t" ></a>
+				<a href="#"  class="Social_g" ></a>
+			</div>
+		</div>
+		<div class="div-4">          
+			<h5>Main <span>Menu</span></h5>
+			<div class="menu-footer-menu-container">
+				<ul id="menu-footer-menu" class="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="About Us.html">About</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="Gallery1.html">Gallery</a></li>
+					<li><a href="Contact us.html">Contact</a></li>
+				</ul>
+			</div>             
+		</div>             
+		<div class="div-4 Column-3 line_height">                           	
+			<h5>Our <span>Philosophy</span></h5>
+			<p>Donec ut ex ac nulla pellentesque mollis in a enim. Praesent placerat sapien mauris, vitae sodales tellus venenatis ac. Suspendisse suscipit velit id ultricies auctor. Duis turpis arcu, aliquet sed sollicitudin sed, porta quis urna. Quisque velit nibh.</p> 
+			<a href="#" class="ReadMore">Read More</a>                
+		</div>
+		<div class="div-4 Column-4">          
+			<h5>Latest <span>Posts</span></h5>
+			<div class="recent-post">
+				<a href="#">
+				<img src="images/view1.jpg" alt="" width="60" height="auto"></a>
+				<p>Suspendisse rutrum tincidunt augue sit amet adipiscing. Aliquam ut nulla risus….</p>
+				<a href="#"><span> Read more</span></a>
+			</div>
+			<div class="recent-post">
+				<a href="#">
+				<img src="images/view2.jpg" alt="" width="60" height="auto"></a>
+				<p>Suspendisse rutrum tincidunt augue sit amet adipiscing. Aliquam ut nulla risus….</p>
+				<a href="#"><span> Read more</span></a>
+			</div>
+		</div>             
+		<div class="clear"></div>
+	</div>
+	<div class="copyright">
+	<div class="copyright-txt">© 2017 <a href="#">Coffee Shop </a>. All Rights Reserved</div>
+	</div>
+</div>
+<!-----------------------------------Footer----------------------------------------->
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+
+</body>
+</html>

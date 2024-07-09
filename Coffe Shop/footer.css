@@ -1,0 +1,327 @@
+body
+{
+		margin:0;
+		padding:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer
+{
+	border-color:#432a1c;
+	background-image:url("images/footerbg.jpg");
+	background-color: #24130b;
+    position: relative;
+    padding: 50px 0 0;
+    border-top: 9px solid #432a1c;
+
+}
+.containar
+{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.div-4
+{
+	color:white;
+	width: 19%;
+    float: left;
+    margin: 0 5% 1% 0;
+    position: relative;
+	
+}
+.footerlogo
+{
+    background-color: #432a1c;
+    background-color: #432a1c;
+    padding: 15px 20px;
+    text-align: center;
+    margin: -50px 0 25px 0;
+    width: 155px;
+    float: none;
+}
+.logo 
+{
+    float: left;
+    text-align: left;
+    width: 75%;
+}
+.logo a 
+{
+    color: #000;
+}
+.phone-no 
+{
+    line-height: 22px;
+	font-family: 'Arimo', sans-serif;
+	font-size:12px;
+}
+.phone-no a 
+{
+	text-decoration:none;
+    color:white;
+}
+.phone-no p 
+{
+	
+	margin-bottom: 2px;
+}
+.div-4 p 
+{
+	font-family: 'Arimo', sans-serif;
+    margin-bottom: 7px;
+	font-size:12px;
+	line-height: 180%;
+}
+.line_height p 
+{
+	font-family: 'Arimo', sans-serif;
+    margin-bottom: 7px;
+	font-size:12px;
+	line-height: 150%;
+}
+.phone-no span
+{
+	color: #c38346;
+	
+}
+.social-icons 
+{
+    margin-top: 20px;
+}
+.social-icons a
+{
+}
+.social-icons a
+{
+    background-color: #fff;
+    width: 32px;
+    height: 32px;
+    line-height: 35px;
+    margin: 0 17px 5px 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    transition: 0.6s;
+    font-size: 20px;
+}
+.div-4 h5
+{
+	font-family: 'Roboto', sans-serif;
+	border-color: #432a1c;
+	color: #ffffff;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #3f3f3f;
+    padding-bottom: 15px;
+}
+h5 
+{
+    font-family: Roboto;
+    font-size: 20px;
+    color: #343434;
+}
+.div-4 h5 span
+{
+	color: #c38346;
+	
+}
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Column-3
+{
+    width: 20%;
+}
+.Column-4 
+{
+    width: 25%;
+    margin-right: 0;
+}
+
+.clear 
+{
+    clear: both;
+}
+.copyright 
+{
+    background-color: #432a1c;
+    padding: 30px 0;
+}
+.copyright-txt 
+{
+    color: #ffffff;
+    float: left;
+    padding-left: 43%;
+	font-family: 'Arimo', sans-serif;
+}
+.copyright-txt  a
+{
+    color: #ffffff;
+	text-decoration:none;
+}
+.copyright a 
+{
+    color: #c38346;
+}
+.design-by 
+{
+    color: #ffffff;
+    float: right;
+}
+.div-4 ul li a 
+{
+    background: url(images/footer-arrow.png) no-repeat left 8px;
+    color: #fff;
+    padding: 2px 0 2px 20px;
+    display: block;
+	text-decoration:none;
+	font-family: 'Arimo', sans-serif;
+	font-size:13px;
+	margin-bottom:10px;
+}
+.div-4 ul li a:hover 
+{
+  
+    color: #c38346;
+	text-decoration:none;
+}
+.recent-post img {
+    float: left;
+    margin: 0 15px 0 0;
+    border: #c38346 solid 3px;
+}
+.ReadMore 
+{
+    background-color: #c38346;
+    color: #fff;
+    padding: 5px 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+	text-decoration:none;
+}
+.ReadMore:hover
+{
+	background-color:#865628;
+	
+	
+}
+.recent-post  a
+{
+	font-family: 'Arimo', sans-serif;
+    margin-bottom: 7px;
+	font-size:12px;
+	color: #c38346;
+	text-decoration:none;
+
+
+}
+.Social_f
+{
+	background-image : url("images/bfacebook.png");	
+	width:32px;
+	height:32px;
+	background-repeat:no-repeat;
+	background-color:white;
+	
+}
+.Social_y
+{
+	background-image : url("images/byoutube.png");	
+	width:32px;
+	height:32px;
+	background-repeat:no-repeat;
+	background-color:white;
+	
+}
+.Social_t
+{
+	background-image : url("images/btwitter.png");	
+	width:32px;
+	height:32px;
+	background-repeat:no-repeat;
+	background-color:white;
+	
+}
+.Social_g
+{
+	background-image : url("images/bgoogle.png");	
+	background-repeat:no-repeat;
+	background-color:white;
+	
+}
+.Social_l
+{
+	background-image : url("images/blink.png");	
+	background-repeat:no-repeat;
+	background-color:white;
+	
+}
+
+.Social_f:hover
+{
+background-image : url("images/facebook.png");	
+}
+.Social_y:hover
+{
+background-image : url("images/youtube.png");	
+}
+.Social_l:hover
+{
+background-image : url("images/link.png");	
+}
+.Social_g:hover
+{
+background-image : url("images/google.png");	
+
+}
+.Social_t:hover
+{
+background-image : url("images/twitter.png");	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
